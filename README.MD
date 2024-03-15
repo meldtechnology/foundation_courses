@@ -15,6 +15,6 @@ We look forward to the exciting journey into the software development
 and engineering world that Meld Technology Solutions presents to you
 as we travel on this train together.
 
-#### Please visit this README regularly for updates
+#### Please visit this README regularly for updates.Thank You!
 
 #### Copyright &copy; Meld Technology Academy 2024
