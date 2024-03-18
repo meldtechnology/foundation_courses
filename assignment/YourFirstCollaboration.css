@@ -16,9 +16,14 @@ body {
     overflow: hidden;
 }
 
-.heading { }
+.heading { 
+    color: white;
+}
 
-.navigation { }
+.navigation {
+    float: right;
+    color:white;
+ }
 
 .navigation a { }
 
