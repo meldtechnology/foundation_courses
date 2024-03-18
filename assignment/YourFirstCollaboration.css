@@ -24,7 +24,12 @@ body {
 
 .section-1 { }
 
-.section-2 { }
+.section-2 {
+        width:400px  ;
+        text-align: center;
+        color: #CECECE;
+        text-decoration: underline;
+ }
 
 .tiles { }
 
