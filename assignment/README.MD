@@ -20,26 +20,31 @@ Hint:
 Use this style for both footer and header - style="text-align: center;"
 
 Sample hint CSS style 
+### Use this class for the image div class and image - .img-column img
+### use this class for the image div class - .img-column
+### use this class for the paragraph sub-header class - p.header
+### use this class for the header anchor links - .collaborate-links
+
 <style>
-###use this class for the image div class and image
+
 	.img-column img {
 		width: 300px;
 		height: 300px;
 		
 	}
 	
-### use this class for the image div class
+
 	.img-column{
 	   margin-right: 2%;
 
 	}
 
-### use this class for the paragraph sub-header class
+
 	p.header {
 	   font-weight: bolder;
 	}
 
-### use this class for the header anchor links
+
 	.collaborate-links {
 	   color: white;
 	   float: right;
