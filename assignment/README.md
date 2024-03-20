@@ -51,4 +51,4 @@ Sample hint CSS style
 1. Checkout to a new git branch on your local machine
 2. Apply the changes on the html file 
 3. Make a push to the git-hub repository 
-4. Create a pull-request
+4. Create a pull-request by chosing bootstrap_assignment
