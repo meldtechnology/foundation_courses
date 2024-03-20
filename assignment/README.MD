@@ -19,13 +19,13 @@ Hint: This is the sub-header section - Meld-Tech Academy Free 8 Foundation Softw
 Hint:
 Use this style for both footer and header - style="text-align: center;"
 
-Sample hint CSS style 
+## Sample hint CSS style 
 ### Use this class for the image div class and image - .img-column img
 ### use this class for the image div class - .img-column
 ### use this class for the paragraph sub-header class - p.header
 ### use this class for the header anchor links - .collaborate-links
 
-<style>
+`<style>
 
 	.img-column img {
 		width: 300px;
@@ -51,7 +51,7 @@ Sample hint CSS style
 	   padding: 10px;
 	}
 </style>
-
+`
 ## Instruction: 
 1. Checkout to a new git branch on your local machine
 2. Apply the changes on the assignment html file 
