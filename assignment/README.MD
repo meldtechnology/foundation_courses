@@ -1,4 +1,4 @@
-#Assignment
+# Assignment
 
 1. Add the CDN for this bootstrap
 Hint: 
@@ -28,18 +28,18 @@ Sample hint CSS style
 		
 	}
 	
-###use this class for the image div class
+### use this class for the image div class
 	.img-column{
 	   margin-right: 2%;
 
 	}
 
-###use this class for the paragraph sub-header class
+### use this class for the paragraph sub-header class
 	p.header {
 	   font-weight: bolder;
 	}
 
-###use this class for the header anchor links
+### use this class for the header anchor links
 	.collaborate-links {
 	   color: white;
 	   float: right;
@@ -47,7 +47,7 @@ Sample hint CSS style
 	}
 </style>
 
-##Instruction: 
+## Instruction: 
 1. Checkout to a new git branch on your local machine
 2. Apply the changes on the assignment html file 
 3. Make a push to the git-hub repository 
