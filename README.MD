@@ -1,9 +1,11 @@
 # Meld Technology Academics
 
-## Welcome Note
+## Instruction
 
-We warmly welcome you to Meld Technology Academy where we groom the next generation of software solutions experts 
-from zero to hero.
+-- This is the sample codes we used for bootstrap 
+-- Clone the git project to see the contents
+-- This is the process for sharing class works and assignments. In case you have issues, contact your fellow class colleagues (collaboration)
+
 
 ### Purpose of this repositories
 This GitHub repositories will be our Hub for collaboration,
