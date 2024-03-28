@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+
+    <style>
+        .header {
+            height: 50px;
+            background-color: #333333;
+            color: #cecece;
+        }
+        .header img {
+            width: 30px;
+            height: 30px;
+            margin-right: 1%;
+        }
+        .main-name {
+            font-size: 1.6rem;
+            margin-right: 1%;
+        }
+        .sub-name {
+            font-size: 1.3rem;
+        }
+        .email {
+            text-align: right;
+        }
+        .center-text {
+            text-align: center;
+            margin-top: 3%;
+        }
+        .profile-pics {
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+        }
+        .content {
+            background-color: #f1f1f1;
+        }
+        .content-img {
+            margin-top: 3%;
+            width: 100%;
+            height: 800px;
+            border-radius: 30px;
+        }
+        .footer {
+            border-radius: 0 0 10px 10px;
+            text-align: center;
+            padding-top: 1%;
+        }
+        .ruler {
+            margin-top: 3%
+        }
+        .button-div {
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class=" align-items-center">
+        <div class="col-8">
+            <img src="images/baseball.png" alt="" />
+            <span class="">Base Migration</span><span class="">Portal</span>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-10">smithrow@example.com</div>
+                <div class="col-2"><img src="images/profile.png" alt="profile" class=""></div>
+            </div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-4">
+            <img src="https://images.unsplash.com/photo-1711322741681-4d65a5a657e8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDV8fHxlbnwwfHx8fHw%3D"
+                 class="content-img" alt="" />
+        </div>
+        <div class="col-8">
+            <h2 class="">Appointment Application Form</h2>
+            <form>
+                <label for="appointNo" class="">Appointment No.</label>
+                <input id="appointNo" class="" type="text" placeholder="123456789" disabled>
+                <label for="exampleFormControlInput111" class="">Username</label>
+                <input type="email" class="" id="exampleFormControlInput111">
+                <label for="exampleFormControlInput1" class="">Email address</label>
+                <input type="email" class="" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="inputPassword5" class="">Password</label>
+                <input type="password" id="inputPassword5" class="" aria-describedby="passwordHelpBlock">
+                <div id="passwordHelpBlock" class="">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
+                <label for="exampleFormControlInput112" class="">Mobile</label>
+                <input type="number" class="" id="exampleFormControlInput112" >
+                <label for="exampleFormControlInput113" class="">Appointment Date/Time</label>
+                <input type="date" class="" id="exampleFormControlInput113" >
+                <input type="time" class="" id="exampleFormControlInput114" >
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label">Select Processing Countries</label>
+                        <div class="form-check">
+                            <input class="" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="" for="flexCheckChecked" >
+                                Nigeria
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="" for="flexCheckDefault">
+                                England
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="" type="checkbox" value="" id="flexCheckDefault1">
+                            <label class="" for="flexCheckDefault1">
+                                Australia
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="" type="checkbox" value="" id="flexCheckDefault2">
+                            <label class="" for="flexCheckDefault2">
+                                Canada
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="" type="checkbox" value="" id="flexCheckDefault3">
+                            <label class="" for="flexCheckDefault3">
+                                USA
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label for="flexRadioDefault11" class="form-label">Select Visa Type</label>
+                        <div class="form-check">
+                            <input class="" type="radio" name="flexRadioDefault" id="flexRadioDefault11">
+                            <label class="" for="flexRadioDefault11">
+                                Temporary Visa
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
+                            <label class="" for="flexRadioDefault12">
+                                Permanent Visa
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="" type="radio" name="flexRadioDefault" id="flexRadioDefault13">
+                            <label class="" for="flexRadioDefault13">
+                                Transit Visa
+                            </label>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-auto">
+                                <label for="gender" class="col-form-label">Gender</label>
+                            </div>
+                            <div class="col-auto">
+                                <select id="gender" class="form-select">
+                                    <option selected>== Select One ==</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="Unknown">I prefer not to say</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="ruler" />
+                </div>
+            </form>
+        </div>
+            <div class="row">
+            <div class="col-8"></div>
+            <div class="col-4">
+                <button type="button" class="btn btn-danger">Cancel</button>
+                <button type="button" class="btn btn-primary">Submit Application</button>
+            </div>
+        </div>
+    </div>
+    <footer class="">
+        &copy; 2024. Meld-Tech Academy
+    </footer>
+</div>
+</body>
+</html>
