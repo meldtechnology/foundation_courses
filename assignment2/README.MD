@@ -6,12 +6,12 @@ Include the CSS and JS links for bootstrap 5
 
 2. Include the viewport meta tags to this file
 
-3. Some custom styling is in the head tag.
-   All yu need to do is place them at the appropriate place
+3. Some custom styling has been included in the head tag for you.
+   All yu need to do is place them at the appropriate places.
 
 4. Add the appropriate bootstrap at the right places.
 
-5. The section you worked on will similar to the end product. final_page_image.png
+5. The section you worked on should look similar to the end product, final_page_image.png
 
 
 ## Instruction: 
